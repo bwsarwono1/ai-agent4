@@ -18,7 +18,7 @@ export default function Index() {
 
       <View style={{
         padding: 20,
-        backgroundColor: colors.PRIMARY,
+        backgroundColor: colors.WHITE,
         margin: 20,
         width: '80%',
         borderRadius: 20,
@@ -28,10 +28,10 @@ export default function Index() {
           color: colors.BLUE,
           fontWeight: 'bold',
           textAlign: 'center',
-
         }}>
           Agentic AI</Text>
-      </View>      <View style={styles.button}>
+      </View>
+      <View style={styles.button}>
         <Text style={{
           backgroundColor: colors.GRAY,
           borderColor: colors.PRIMARY,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: colors.PRIMARY,
+    backgroundColor: colors.WHITE,
     height: '100%'
   },
   heading: {
@@ -78,6 +78,8 @@ const styles = StyleSheet.create({
   button: {
     borderWidth: 1,
     borderRadius: 99,
-    padding: 2
+    padding: 2,
+    borderColor: colors.PRIMARY,
+
   }
 });
